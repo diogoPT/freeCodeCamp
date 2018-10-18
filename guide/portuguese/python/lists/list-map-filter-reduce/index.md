@@ -1,13 +1,14 @@
 ---
 title: Map, Reduce, Filter
 localeTitle: Mapa, Reduzir, Filtrar
----# Mapear, Reduzir e Filtrar
+---
+# Mapear, Reduzir e Filtrar
 
-A maioria dos engenheiros trabalha com listas para processar listas de pedidos / usuários, etc. A análise de listas pode se tornar complexa e desordenada rapidamente se usar vários loops for-loops aninhados. Portanto, esses métodos acima podem agilizar o uso de operações de lista.
+A maioria dos engenheiros trabalha com listas para processar listas de pedidos / usuários, etc. A análise de listas pode tornar se bastante complexa e desordenada rapidamente, se usar vários  for-loops aninhados. Portanto, estes métodos  podem agilizar o uso de operações de lista.
 
 ## Mapa
 
-Se sua tarefa é aplicar um método específico a cada elemento de uma lista, o mapa será útil. Digamos que você tenha uma lista de valores de graduação e gostaria de converter todos esses valores em uma lista de valores em unidades Fahrenheit.
+Se sua tarefa é aplicar um método específico a cada elemento de uma lista, o mapa será útil. Digamos que você tem uma lista de valores de graus centigrados  e gostaria de converter esses valores numa lista de valores em unidades Fahrenheit.
 
 #### Exemplo de uso
 
@@ -32,7 +33,7 @@ inputs = [10,32,5,40,25]
  print(result) # [50.0, 89.6, 41.0, 104.0, 77.0] 
 ```
 
-Como você deve ter notado, usar o mapa é simplesmente uma operação de um liner. Geralmente, se você tiver dados = `[a1,a2,...,an]` e uma função `f()` , então `map(f,data):` retorna um iterador sobre `f(a1),f(a2)...f(an).` use `list()` para converter o objeto iterador em uma lista python.
+Como você deve ter notado, usar o mapa é simplesmente uma operação linear. Geralmente, se você tiver dados = `[a1,a2,...,an]` e uma função `f()` , então `map(f,data):` retorna um iterador sobre `f(a1),f(a2)...f(an).` use `list()` para converter o objeto iterador em uma lista python.
 
 ## Filtro
 
@@ -51,7 +52,7 @@ data = [1.2,2.5,5.8,0.4,4.7,9.9]
 [2.5, 5.8, 4.7, 9.9] 
 ```
 
-Este também é um simples 1 liner semelhante à função map () acima. Consulte o tutorial sobre funções lambda se você achar que este termo não é familiar.
+Este também é um simples função linear, semelhante à função map () mostrada acima. Consulte o tutorial sobre funções lambda, se não achar que este termo é familiar.
 
 ## Reduzir
 
